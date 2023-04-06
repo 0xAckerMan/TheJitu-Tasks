@@ -1,56 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML+CSS Task</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link
+			rel="shortcut icon"
+			href="./images/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+	</head>
+	<body>
+		<div class="full">
+			<div class="full-inner">
+				<div class="left">
+					<h1 class="left-title">Your Result</h1>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <div class="full">
-    <section class="left"></section>
-    <div class="left1">
-      <div class="title1">
-        Your Result
-      </div>
-      <div class="score">
-        <p id="big">76</p>
-        <p id="small">of 100</p>
-      </div>
-      <div class="message">
-        <p id="great">
-          Great
-        </p>
-        <p id="message">
-          You scored higher than 65% of the people who have taken these tests.
-        </p>
-      </div>
-  
-    </div>
-    <section class="right">
-      <div class="title2">Summary</div>
-      <div class="content">
-        <p id="reaction">Reaction</p>
-        <p class="scale">80 / 100</p>
-        <p id="memory">Memory</p>
-        <p class="scale">92 / 100</p>
-        <p id="verbal">Verbal</p>
-        <p class="scale"></p>
-        <p id="visual">Visual</p>
-        <p class="scale">72 / 100</p>
-      </div>
-      <div class="btn">
-        <button>Continue</button>
-      </div>
-    </section>
-  </div>
-</body>
-</html>
+					<div class="score-container">
+						<span class="score">76</span>
+						<span class="score-out-of">of 100</span>
+					</div>
+
+					<p class="info-title">Great</p>
+					<p class="info-text">You scored higher than 65% of <br> the people who have taken <br> these tests.</p>
+				</div>
+
+				<div class="right">
+					<h3>Summary</h3>
+
+					<div class="summary">
+						<div class="item reaction">
+							<div class="item-left">
+								<img
+									src="assets/images/icon-reaction.svg"
+									alt="reaction-image"
+								/>
+
+								<span class="item-text">Reaction</span>
+							</div>
+
+							<span>
+								<strong>80</strong>
+								<span class="scores">/ 100</span>
+							</span>
+						</div>
+						<div class="item memory">
+							<div class="item-left">
+								<img
+									src="assets/images/icon-memory.svg"
+									alt="memory-image"
+								/>
+
+								<span class="item-text">Memory</span>
+							</div>
+
+							<span>
+								<strong>92</strong>
+								<span class="scores">/ 100</span>
+							</span>
+						</div>
+						<div class="item verbal">
+							<div class="summ">
+								<img
+									src="assets/images/icon-verbal.svg"
+									alt="verbal-image"
+								/>
+
+								<span class="item-text">Verbal</span>
+							</div>
+
+							<span>
+								<strong>61</strong>
+								<span class="scores">/ 100</span>
+							</span>
+						</div>
+						<div class="item visual">
+							<div class="summ">
+								<img
+									src="assets/images/icon-visual.svg"
+									alt="visual-image"
+								/>
+
+								<span class="item-text">Visual</span>
+							</div>
+
+							<span>
+								<strong>72</strong>
+								<span class="scores">/ 100</span>
+							</span>
+						</div>
+					</div>
+					<button class="btn">Button</button>
+				</div>
+			</div>
+		</main>
+	</body>
+</html
