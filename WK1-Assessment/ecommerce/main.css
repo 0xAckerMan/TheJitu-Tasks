@@ -24,10 +24,10 @@ body{
 .navbar {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 88%;
     justify-items: center;
     align-items: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid hsl(223, 68%, 97%);
     padding: 20px 2px;
 }
 
@@ -44,6 +44,7 @@ body{
     text-decoration-style: none;
     list-style: none;
     gap: 30px;
+    color: hsl(219, 9%, 45%);
 }
 
 .links li{
@@ -63,8 +64,8 @@ body{
 }
 
 #logo {
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
 }
 
 .content{
@@ -76,19 +77,26 @@ body{
 
 .content-left{
     width: 70%;
+    margin-right: -30px;
 }
 
 .product img{
     height: 420px;
-    width: 400px;
+    width: 420px;
     border-radius: 10px;
+}
+
+.thumbnail{
+    display: flex;
 }
 
 .thumbnail img{
     margin: 8px;
 }
-#one{
+#one {
     margin-left: 0;
+    border: 3px solid hsl(26, 100%, 55%);
+    opacity: 39%;
 }
 
 #four{
@@ -96,7 +104,7 @@ body{
 }
 
 #one, #two, #three, #four{
-    width: 82px;
+    width: 89px;
     border-radius: 13px;
 }
 
@@ -107,6 +115,7 @@ body{
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
+    width: 450px;
 }
 
 .heading{
@@ -139,17 +148,72 @@ body{
 .message{
     font-weight: 400;
     font-size: 16px;
+    color: hsl(219, 9%, 45%);
 }
 
 #price {
     font-weight: 700px;
     font-size: 25px;
-
+    display: flex;
 }
 
 #offer{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 9px;
+}
+#offer div{
+    background-color: hsl(29, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    border-radius: 9px;
+    width: 40px;
+    font-weight: 700;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    height: 25px;
 }
 
+#cancel {
+    margin-top: 10px;
+    color: hsl(219, 9%, 45%);
+    font-weight: 700;
+    font-size: 13px;
+
+}
+
+.buttons{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    width: 400px;
+    padding-top: 0;
+    margin-top: -10px;
+}
+
+#number{
+    background-color: hsl(223, 64%, 98%);
+    width: 150px;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.button {
+    display: flex;
+    width: 320px;
+    background-color: hsl(26, 100%, 55%);
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: hsl(223, 64%, 98%);
+    font-weight: 700px;
+}
