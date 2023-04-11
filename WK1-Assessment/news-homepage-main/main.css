@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: 90%;
+    margin-top: 40px;
+}
+
+
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.links li{
+    cursor: pointer;
+}
+
+.contents{
+    width: 90%;
+    margin-top: 20px;
+    gap: 30px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "one one two" "one one two" "three four five";
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    grid-area: one;
+    gap: 5px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about-title{
+    width: 45%;
+    left: 0;
+    /* background-color: blueviolet; */
+}
+
+.about-title h2{
+    font-size: 55px;
+}
+
+.about-message{
+    width: 47%;
+    right: 0;
+    /* background-color: aqua; */
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn{
+    background-color: hsl(5, 85%, 63%);
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 30%;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+}
+
+.two{
+    background-color: hsl(240, 100%, 5%);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    grid-area: two;
+}
+
+.title2 h2{
+    color: hsl(35, 77%, 62%);
+    font-size: 40px;
+}
+
+.new{
+    border-bottom: 1px solid white;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+
+
+
+.small-img{
+    height: 120px;
+    width: 33%;
+}
+
+.small-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.three{
+    display: flex;
+    gap: 15px;
+    grid-area: three;
+    margin-top: 20px;
+}
+
+.three-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.three-body{
+    gap: 10px;
+    display: flex;flex-direction: column;
+}
+.number p{
+    font-size: 30px;
+}
+
+.four{
+    display: flex;
+    gap: 15px;
+    grid-area: four;
+    margin-top: 20px;
+}
+.five{
+    display: flex;
+    gap: 15px;
+    grid-area: five;
+    margin-top: 20px;
+}
