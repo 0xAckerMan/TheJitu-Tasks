@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +12,7 @@
     flex-direction: column;
     gap: 20px;
     height: 100%;
+    font-family: Inter, sans-serif;
 }
 
 .navbar{
@@ -19,6 +21,7 @@
     /* background-color: aqua; */
     width: 90%;
     margin-top: 40px;
+    color: hsl(236, 13%, 42%);;
 }
 
 
@@ -67,7 +70,7 @@
 }
 
 .about-title h2{
-    font-size: 55px;
+    font-size: 53px;
 }
 
 .about-message{
@@ -96,7 +99,7 @@
     color: rgb(255, 255, 255);
     padding: 15px;
     display: flex;
-    gap: 25px;
+    gap: 35px;
     flex-direction: column;
     grid-area: two;
 }
@@ -104,6 +107,7 @@
 .title2 h2{
     color: hsl(35, 77%, 62%);
     font-size: 40px;
+    margin-top: 20px;
 }
 
 .new{
@@ -111,9 +115,18 @@
     padding: 19px;
     display: flex;
     flex-direction: column;
+    height: 65px;
+}
+.new p, .neww p{
+    color: hsl(236, 13%, 42%);
+    margin: 0, 40px;
+}
+.neww{
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
     height: 50px;
 }
-
 
 
 .small-img{

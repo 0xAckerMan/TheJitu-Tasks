@@ -49,6 +49,23 @@
     height: 250px;
 }
 
+.one-lower p{
+    display: flex;
+    gap: 70px;
+    /* background-color: aqua; */
+    
+    margin: 3%;
+    font-size: 28px;
+}
+
+#gray{
+    color: hsl(236, 100%, 87%);
+}
+
+#last-week{
+    color: hsl(236, 100%, 87%);
+}
+
 .image{
     display: flex;
     background-color: hsl(246, 80%, 60%);

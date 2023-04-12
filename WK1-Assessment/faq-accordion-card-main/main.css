@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
 }
 
 .container{
+    font-family: 'Kumbh Sans', sans-serif;
     width: 100%;
     height: 100vh;
-    background-color: hsl(240, 73%, 65%);
+    /* background-color: hsl(240, 73%, 65%); */
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,13 +28,19 @@
 
 .content-left{
     display: flex;
-    background: url(images/bg-pattern-desktop.svg);
-    background-repeat: no-repeat;
+    background: url(images/bg-pattern-desktop.svg),
+                url(images/illustration-woman-online-desktop.svg);
+    background-size: 680px, 90%;
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: -300px, -54px;
+    background-position-y: -203px, top;
+    /* background-repeat: no-repeat;
     background-position: left;
-    background-size: 40%;
+    background-size: 40%; */
     width: 60%;
     position: relative;
-    height: 100%;
+    height: 88%;
+    margin-bottom: -50px;
 }
 
 .big-pic{
@@ -54,8 +64,8 @@
     content: url(images/illustration-box-desktop.svg);
     
     position: absolute;
-    top: 35%;
-    left: -10%;
+    top: 32%;
+    left: -40%;
 }
 
 
@@ -67,6 +77,17 @@
     /* background-color: aqua; */
     margin: 30px;
     width: 55%;
+    height: 80%;
+    padding-top: 40px;
+    
+}
+.content-right p{
+    font-size: 14px;
+}
+
+h2{
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
 }
 
 .one{
@@ -74,6 +95,10 @@
     justify-content: space-between;
     border-bottom: 1px solid hsl(240, 5%, 91%);
     padding: 15px;
+}
+
+.t-one{
+    color: hsl(237, 12%, 33%);
 }
 
 .two{
