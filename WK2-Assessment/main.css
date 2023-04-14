@@ -63,3 +63,34 @@ button{
     box-sizing:border-box;
     padding:0 18px; 
 }
+
+select{
+    border:1px green solid;
+    outline:none;
+    display:inline-block;
+    height:34px;
+    vertical-align:middle;
+    position:relative;
+    bottom:14px;
+    right:9px;
+    border-radius:22px;
+    width:220px;
+    box-sizing:border-box;
+    padding:0 18px; 
+}
+
+.answer{
+    background-color: rgb(201, 245, 100);
+    outline:none;
+    display:inline-block;
+    align-items: center;
+    vertical-align:middle;
+    position:relative;
+    bottom:14px;
+    right:9px;
+    border-radius:22px;
+    width:220px;
+    box-sizing:border-box;
+    padding:0 18px; 
+    font-size: 20px;
+}
